@@ -13,7 +13,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 
 public class UserRefreshTest {
     private final UserGenerator userGenerator = new UserGenerator();
-    String accessToken;
+    private String accessToken;
     private UserClient userClient;
     private User user;
     private UserAssertions userAssertions;
